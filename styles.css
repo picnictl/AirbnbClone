@@ -1,0 +1,71 @@
+body {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome-tag {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+.header-main {
+    height: 725px;
+    background-image: url(/images/Background\ Image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 20px 80px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    width: 40%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    position: relative;
+    top: -7px;
+}
+
+.nav-center {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-right {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.nav-right button {
+    height: 40px;
+    width: 75px;
+    border-radius: 20px;
+    border: none;
+}
