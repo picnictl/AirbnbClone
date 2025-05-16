@@ -1,6 +1,7 @@
 body {
     display: block;
     font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
 .welcome-tag {
@@ -11,13 +12,6 @@ body {
 
 .welcome-tag a {
     color: whitesmoke;
-}
-
-.nav-center a {
-    color: whitesmoke;
-    text-decoration: none;
-    display: flex;
-    padding: 10px 0;
 }
 
 .header-main {
@@ -60,6 +54,13 @@ body {
     flex-wrap: wrap;
 }
 
+.nav-center a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    padding: 8px 0;
+}
+
 .nav-center a:hover {
     border-bottom: 1px solid whitesmoke;
 }
@@ -71,16 +72,21 @@ body {
     width: 40%;
     gap: 20px;
     font-size: 17px;
+
 }
 
 .nav-right a {
+    color: whitesmoke;
     text-decoration: none;
+    padding: 10px;
+}
+
+.nav-right a:hover {
+    background: rgba(208, 222, 208, 0.2);
+    border-radius: 20px;
 }
 
 .nav-right button {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
     height: 40px;
     width: 75px;
     border-radius: 20px;
@@ -94,8 +100,8 @@ body {
     flex-wrap: wrap;
     gap: 15px;
     background-color: #FFFFFF;
-    width: 850px;
     height: 65px;
+    width: 850px;
     margin: 0 auto;
     border-radius: 100px;
     font-size: 16px;
@@ -105,9 +111,14 @@ body {
     border-right: 1px solid rgb(208, 204, 204);
 }
 
+.search-bar>div:hover {
+    background: rgba(109, 103, 103, 0.2);
+    border-radius: 20px;
+}
+
 .search-bar a {
     text-decoration: none;
-    color: black;
+    background: transparent;
 }
 
 .search-bar a:visited {
@@ -117,6 +128,7 @@ body {
 .search-bar input {
     border: none;
     width: 90%;
+    background: transparent;
 }
 
 .search-bar button {
@@ -128,4 +140,76 @@ body {
     width: 45px;
     height: 45px;
     border-radius: 100px;
+}
+
+.search-bar button:hover {
+    background-color: #d20364;
+}
+
+.header-text {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.header-text>p {
+    font-size: 60px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.header-text>button {
+    width: 150px;
+    height: 33px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+}
+
+.margin-padding {
+    margin: 50px 0;
+    padding: 0 80px;
+}
+
+.location-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.location-list a {
+    margin-top: 15px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+
+.location-list li {
+    display: flex;
+    align-items: center;
+}
+
+.width25>a {
+    width: 25%;
+}
+
+ul li>span>* {
+    display: block;
+}
+
+.location-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.location-list img {
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.accomodations img {
+    border-radius: 10px;
 }
