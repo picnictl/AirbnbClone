@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -168,30 +174,54 @@ body {
     border: none;
 }
 
-.margin-padding {
-    margin: 50px 0;
-    padding: 0 80px;
+.margin70 {
+    margin: 0 70px;
 }
 
-.width25 {
+
+
+img {
+    max-width: 100%;
+}
+
+.width20 {
+
     display: flex;
+    overflow: hidden;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+    border: 2px solid black;
+
+}
+
+.width20 li {
     list-style-type: none;
-    border: 1px solid black;
-    flex: 1;
+}
+
+.width20 {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 0;
+}
+
+.width20 a {
+    width: 20%;
+}
+
+.width20 li {
+    list-style-type: none;
+
 }
 
 .location-list li {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-}
-
-.width25>* {
-    width: 25%;
-    min-width: auto;
-    box-sizing: border-box;
 }
 
 ul li>span>* {
@@ -210,34 +240,34 @@ ul li>span>* {
     margin-right: 15px;
 }
 
-.accomodations img {
-    border-radius: 10px;
-    width: 330px;
-    height: auto;
-}
-
 .accomodations a {
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bolder;
+
 }
 
-.width33 {
+.width30 {
     display: flex;
+    overflow: hidden;
     flex-wrap: wrap;
-    width: 100%;
+    gap: 50px;
+    min-width: 100%;
     height: auto;
+    border: 1px solid black;
 }
 
-.width33 a {
-    width: 33.33%;
+.width30 a {
+    width: 30%;
     text-decoration: none;
     color: black;
     list-style-type: none;
 }
 
-.width33 img {
-    width: 450px;
-    height: auto;
+.width30 img {
+    width: 700px;
+    border-radius: 10px;
 }
+
+.
