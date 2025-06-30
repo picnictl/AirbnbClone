@@ -78,7 +78,6 @@ body {
     width: 40%;
     gap: 20px;
     font-size: 17px;
-
 }
 
 .nav-right a {
@@ -93,10 +92,22 @@ body {
 }
 
 .nav-right button {
+    background-color: whitesmoke;
     height: 40px;
     width: 75px;
     border-radius: 20px;
     border: none;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right button>a {
+    color: black;
+    padding: 0;
 }
 
 .search-bar {
@@ -164,6 +175,7 @@ body {
     font-size: 60px;
     color: whitesmoke;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .header-text>button {
@@ -172,6 +184,11 @@ body {
     font-weight: bolder;
     border-radius: 10px;
     border: none;
+}
+
+.header-text a {
+    text-decoration: none;
+    color: black;
 }
 
 .margin100 {
@@ -287,14 +304,14 @@ footer {
     border-top: 1px solid rgb(222, 220, 220);
 }
 
-.footer {
+.footer-top {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(190, 187, 187);
     padding-bottom: 20px;
 }
 
-.footer div {
+.footer-top div {
     padding: 5px 0;
     font-size: 14px;
 }
@@ -302,4 +319,48 @@ footer {
 footer .title {
     font-weight: bold;
     font-size: 12px;
+}
+
+.footer-top a,
+.footer-bottom a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-top a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.social-media img {
+    width: 15px;
+}
+
+.top-line {
+    width: 100%;
+    display: flex;
+}
+
+.copy-right {
+    width: 60%;
+}
+
+.language {
+    width: 20%;
+}
+
+.social-media {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.bottom-line a:hover {
+    text-decoration: underline;
 }
